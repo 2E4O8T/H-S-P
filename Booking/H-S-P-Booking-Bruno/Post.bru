@@ -1,0 +1,18 @@
+meta {
+  name: Post
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://localhost:7001/api/Consultants
+  body: json
+  auth: none
+}
+
+body:json {
+    {
+      "name": "test",
+      "speciality": "update"
+    }
+}

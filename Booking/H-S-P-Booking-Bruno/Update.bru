@@ -1,0 +1,19 @@
+meta {
+  name: Update
+  type: http
+  seq: 4
+}
+
+put {
+  url: https://localhost:7001/api/Consultants/5
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": 5,
+    "name": "string",
+    "speciality": "string"
+  }
+}

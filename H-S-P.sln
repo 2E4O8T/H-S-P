@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiCalendarService", "ApiCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMI", "HMI\HMI.csproj", "{C251101A-0ACE-4412-9CE1-1FF8838EEAEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking", "Booking\Booking.csproj", "{88FE5AB5-9F7F-494C-870D-95814F8D3E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{C251101A-0ACE-4412-9CE1-1FF8838EEAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C251101A-0ACE-4412-9CE1-1FF8838EEAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C251101A-0ACE-4412-9CE1-1FF8838EEAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FE5AB5-9F7F-494C-870D-95814F8D3E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FE5AB5-9F7F-494C-870D-95814F8D3E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FE5AB5-9F7F-494C-870D-95814F8D3E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FE5AB5-9F7F-494C-870D-95814F8D3E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C251101A-0ACE-4412-9CE1-1FF8838EEAEB} = {3734B58F-768F-4D76-9151-1FB05EB7A0DE}
+		{88FE5AB5-9F7F-494C-870D-95814F8D3E1F} = {F5C36AEC-9147-43C4-8ABA-02B0E9102E26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {070CCB00-7D1F-4810-98FE-BEF36A6426F3}
