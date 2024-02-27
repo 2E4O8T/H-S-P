@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{3734B58F-768F-4D76-9151-1FB05EB7A0DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{9133E348-6E2C-402C-B9D7-8DF9A85FC22D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiBookingService", "ApiBookingService", "{F5C36AEC-9147-43C4-8ABA-02B0E9102E26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiCalendarService", "ApiCalendarService", "{3B6882E9-233E-470D-BB14-8E0B554DA5C5}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {070CCB00-7D1F-4810-98FE-BEF36A6426F3}
+	EndGlobalSection
+EndGlobal
