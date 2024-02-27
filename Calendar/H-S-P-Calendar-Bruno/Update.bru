@@ -1,0 +1,20 @@
+meta {
+  name: Update
+  type: http
+  seq: 4
+}
+
+put {
+  url: https://localhost:7002/api/Calendars/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": 1,
+    "patient": "Maurice",
+    "consultant": "Ben",
+    "appointmentDate": "2024-02-28"
+  }
+}
