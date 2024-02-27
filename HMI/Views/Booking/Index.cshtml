@@ -1,0 +1,44 @@
+﻿@model IEnumerable<HMI.Models.BookingDto>
+
+@{
+   ViewData["Title"] = "Index";
+}
+
+<section id="appointments-list" class="section-padding">
+    <div class="container">
+        <h2>Liste des rendez-vous</h2>
+
+        <div><a asp-action="Create">Ajouter un rendez-vous</a></div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Patient)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Consultant)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AppointmentDate)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Consultant)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AppointmentDate)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
